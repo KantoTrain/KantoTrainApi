@@ -11,6 +11,7 @@ class KantoTrainApi < Grape::API
 
   format :json
   get '/toyoko' do
+    # TODO: ../data/toyoko.jsonをパースして返したい
     [
       {
         "name": "渋谷",
