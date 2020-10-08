@@ -23,14 +23,14 @@ Browse http://localhost:9292/
 
 <td id='motosumiyosh'>
 <a href='https://github.com/motosumiyosh'>
-<img src='https://github.com/motosumiyosh?size=140'>
+<img src='https://github.com/motosumiyosh.png?size=140'>
 </a>
 <h4 align='center'><a href='https://twitter.com/motosumiyosh'>日比野航太</a></h4>
 </td>
 
 <td id='tomoki_sun'>
 <a href='https://github.com/tomoki69386'>
-<img src='https://github.com/tomoki69386?size=140'>
+<img src='https://github.com/tomoki69386.png?size=140'>
 </a>
 <h4 align='center'><a href='https://twitter.com/tomoki_sun'>tomoki_sun</a></h4>
 </td>
