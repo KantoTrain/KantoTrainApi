@@ -16,4 +16,9 @@ class KantoTrainApi < Grape::API
   get '/tokyu/toyoko' do
     Tokyu::Toyoko.stations
   end
+
+  format :json
+  get '/tokyu/denen-toshi' do
+    Tokyu::DenenToshi.stations
+  end
 end
