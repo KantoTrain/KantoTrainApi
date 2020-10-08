@@ -1,8 +1,10 @@
 # frozen_string_literal: true
 
 require 'grape'
-require "json"
-Dir["./lib/kanto_trains/*.rb"].each {|file| require file }
+require 'json'
+Dir['./lib/kanto_trains/*.rb'].each do |file|
+  require file
+end
 
 class KantoTrainApi < Grape::API
   format :json
