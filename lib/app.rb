@@ -2,6 +2,7 @@
 
 require 'grape'
 require "json"
+Dir["./lib/kanto_trains/*.rb"].each {|file| require file }
 
 class KantoTrainApi < Grape::API
   format :json
@@ -10,9 +11,7 @@ class KantoTrainApi < Grape::API
   end
 
   format :json
-  get '/toyoko' do
-    File.open("./data/toyoko.json") do |file|
-      JSON.load(file)
-    end
+  get '/tokyu/toyoko' do
+    Tokyu::Toyoko.stations
   end
 end
