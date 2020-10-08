@@ -8,4 +8,12 @@ class YokohamaSubway
       end
     end
   end
+
+  class BlueLine
+    def self.stations
+      File.open('./data/yokohama_subway/blue_line.json') do |file|
+        JSON.load(file)
+      end
+    end
+  end
 end

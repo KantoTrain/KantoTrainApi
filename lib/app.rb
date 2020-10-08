@@ -17,8 +17,13 @@ class KantoTrainApi < Grape::API
     Tokyu::Toyoko.stations
   end
 
-  format :json
-  get '/yokohama_subway/green_line' do
-    YokohamaSubway::GreenLine.stations
+  resources :yokohama_subway do
+    get '/green_line' do
+      YokohamaSubway::GreenLine.stations
+    end
+
+    get '/blue_line' do
+      YokohamaSubway::BlueLine.stations
+    end
   end
 end
