@@ -1,2 +1,2 @@
-require './lib/app.rb' # hello.rbが同じディレクトリに格納されていること
+require './lib/app.rb'
 run Rack::Cascade.new [KantoTrainApi]
