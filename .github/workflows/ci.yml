@@ -3,8 +3,8 @@ name: CI
 on: [push]
 
 jobs:
-  lint:
-    name: lint
+  rubocop:
+    name: rubocop
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -26,4 +26,3 @@ jobs:
           bundle install --jobs 4 --retry 3
       - name: rubocop
         run: bundle exec rubocop lib/
-        
