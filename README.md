@@ -13,7 +13,7 @@ $ bundle exec rackup
 
 Browse http://localhost:9292/
 
-# KantoTrainApi Team
+# Team
 
 
 <!-- This table is regenerated and resorted on each release -->
