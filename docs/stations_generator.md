@@ -1,6 +1,6 @@
 # StationsGenerator
 
-[StationsGenerator](./scripts/stations_generator.ruby) は[/data](./data/)のJSONファイル作成を補助するスクリプト
+[StationsGenerator](https://github.com/KantoTrain/KantoTrainApi/blob/master/scripts/stations_generator.ruby) はJSONファイル作成を補助するスクリプト
 
 実行方法は以下
 
