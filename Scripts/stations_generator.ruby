@@ -31,9 +31,10 @@ ARGV.each_with_index do |argument, i|
       end
     
       json += ']'
-      
+
       file_path = "./data/#{company}/#{line_name}.json"
       status = FileTest.exist?(file_path) ? 'UPDATED' : 'CREATED'
+      Dir.mkdir("./data/#{company}/")
       File.write(file_path, json)
       puts "[#{status}] #{file_path}"
     else
