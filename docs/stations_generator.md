@@ -1,6 +1,6 @@
 # StationsGenerator
 
-[StationsGenerator](./scripts/stations_generator.ruby) は`./data/`のJSONファイル作成を補助するスクリプト
+[StationsGenerator](./scripts/stations_generator.ruby) は[/data](./data/)のJSONファイル作成を補助するスクリプト
 
 実行方法は以下
 
